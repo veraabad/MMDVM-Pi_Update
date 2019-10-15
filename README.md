@@ -4,7 +4,7 @@ This repo contains a bash script in order to flash firmware into the ZUM Radio M
 
 The script works by loading a bin file with the name mmdvm_f7. Therefore it can be used to load the bin file in this repo or you could use a bin file that you built.
 
-The mmdvm_f7.bin on here was built using the MMDVM repo from G4KLX https://github.com/g4klx/MMDVM. The default flags were used pluse these:
+The mmdvm_f7.bin on here was built using the MMDVM repo from G4KLX https://github.com/g4klx/MMDVM. The default flags were used plus these:
 
 	#define MODE_LEDS
 	#define SERIAL_REPEATER
