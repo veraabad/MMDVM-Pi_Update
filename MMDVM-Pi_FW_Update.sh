@@ -12,7 +12,7 @@ sudo git clone https://git.code.sf.net/p/stm32flash/code stm32flash
 cd stm32flash
 sudo make
 sudo make install
-cd ~/
+cd ../
 
 sudo pistar-watchdog.service stop
 sudo systemctl stop mmdvmhost.timer
