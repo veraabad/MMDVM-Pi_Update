@@ -3,7 +3,8 @@
 # Script for updating FW on MMDVM-Pi
 # using a Raspberry Pi running Pi-Star
 
-rpi-rw
+sudo mount -o remount,rw /
+sudo mount -o remount,rw /boot
 
 sudo apt-get remove libi2c-dev
 sudo apt-get remove stm32flash
