@@ -21,6 +21,4 @@ sudo systemctl stop mmdvmhost.service
 eval sudo stm32flash -i 20,-21,21:-20,21 /dev/ttyAMA0
 eval sudo stm32flash -v -w mmdvm_f7.bin -g 0x0 -R -c /dev/ttyAMA0
 
-sudo pistar-watchdog.service start
-sudo systemctl start mmdvmhost.timer
-sudo systemctl start mmdvmhost.service
+sudo reboot now
